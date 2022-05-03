@@ -32,13 +32,15 @@ const Lang = Language.getString('system_stats');
 var SYSDTXT = ''
 if (Build.LANG == 'SI') SYSDTXT = '💻 පද්ධති තත්ත්වය'
 if (Build.LANG == 'EN') SYSDTXT = '💻 System status'
+if (Build.LANG == 'AR') SYSDTXT = '💻 حالة النظام'
 
 var VER = ''
 if (Build.LANG == 'SI') VER = '🧬 Version'
 if (Build.LANG == 'EN') VER = '🧬 Version'
+if (Build.LANG == 'AR') VER = '🧬 الإصدار'
 
 var MSG = ''
-if (Build.ALIVEMSG == 'default') MSG = '```Hey There! Bot Online now. 💃🏻♥️```\n\n*Developer:* ```Black Amda```\n\n*Official Website:* https://amdaniwasa.com\n\n*Youtube channel :* https://www.youtube.com/channel/UCZx8U1EU95-Wn9mH4dn15vQ\n\n```Thank You For Using Queen Amdi💞```'
+if (Build.ALIVEMSG == 'default') MSG = '```Hey There! Bot Online now. ```\n\n*Developer:* ``` تركي الفهادي```\n\n*Official Website:* htps://amdaniwas\n\n*Youtube channel :* https://www.youtube.com/channel/UCZx8U1EU95-Wn9mH4dn15vQ\n\n```Thank You For Using Queen Amdi💞```'
 else MSG = Build.ALIVEMSG
 
 
