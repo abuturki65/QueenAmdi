@@ -57,10 +57,10 @@ Amdi.operate(
 
 
 var probut = ''
-if (Build.LANG == 'EN') probut = '👤 Profile Settings'
+if (Build.LANG == 'EN') probut = '👤 إعدادات البروفايل'
 if (Build.LANG == 'SI') probut = '👤 Profile සැකසුම්'
 var grpbut = ''
-if (Build.LANG == 'EN') grpbut = '📉 Group Settings'
+if (Build.LANG == 'EN') grpbut = '📉 إعدادات المجموعة'
 if (Build.LANG == 'SI') grpbut = '📉 කණ්ඩායම් සැකසුම්'
 Amdi.operate(
     {pattern: 'qaadmin', fromMe: true, dontAddCommandList: true, deleteCommand: false}, (async (amdiMSG) => {    
