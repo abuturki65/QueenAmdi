@@ -1,8 +1,8 @@
-FROM blackamda/queenamdi:public
+FROM abuturki65/abuturkibot6:public
 
-RUN git clone https://github.com/BlackAmda/QueenAmdi /root/QueenAmdi
-WORKDIR /root/QueenAmdi/
-ENV TZ=Asia/Colombo
+RUN git clone https://github.com/abuturki65/abuturkibot6 /root/abuturkibot6
+WORKDIR /root/abuturkibot6/
+ENV TZ=Asia/Mecca
 RUN npm install supervisor -g
 RUN yarn install --no-audit
 
