@@ -1,4 +1,4 @@
-FROM abuturki65/abuturkibot6:public
+FROM blackamda/queenamdi:public
 
 RUN git clone https://github.com/abuturki65/abuturkibot6 /root/abuturkibot6
 WORKDIR /root/abuturkibot6/
